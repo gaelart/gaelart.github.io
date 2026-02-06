@@ -17,6 +17,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   padding: 1.5rem;
+  
 }
 
 .artwork {
@@ -25,6 +26,12 @@ body {
   background: #ffecd1;
   align-items: center;
   padding-top: 1rem;
+  transition: transform 0.2s ease;
+
+}
+
+.artwork:hover {
+  transform: translateY(-4px);
 }
 
 .artwork img {
@@ -32,15 +39,7 @@ body {
   height: auto;
   display: block;
   aspect-ratio: 4 / 5;
-  object-fit: cover;
-}
-
-.artwork {
-  transition: transform 0.2s ease;
-}
-
-.artwork:hover {
-  transform: translateY(-4px);
+  object-fit: scale-down;
 }
 
 .lightbox {

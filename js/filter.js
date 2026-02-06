@@ -9,7 +9,7 @@ buttons.forEach(button => {
       const tags = art.dataset.tags.split(" ");
 
       if (filter === "all" || tags.includes(filter)) {
-        art.style.display = "block";
+        art.style.display = "flex";
       } else {
         art.style.display = "none";
       }
