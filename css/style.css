@@ -39,7 +39,7 @@ body {
   height: auto;
   display: block;
   aspect-ratio: 4 / 5;
-  object-fit: scale-down;
+  object-fit: cover;
 }
 
 .lightbox {
@@ -66,7 +66,7 @@ body {
 
 .lightbox-image {
   max-width: 100%;
-  max-height: 70vh;
+  max-height: 80vh;
   margin-bottom: 1rem;
 }
 
