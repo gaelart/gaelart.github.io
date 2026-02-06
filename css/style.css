@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Natural Mono';
+  src: url("../fonts/Natural%20Mono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background: #eae1df;
+  color: #0f0f0f;
+  font-family: 'Natural Mono', monospace;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -8,14 +22,17 @@
 .artwork {
   display: flex;
   flex-direction: column;
+  background: #ffecd1;
+  align-items: center;
+  padding-top: 1rem;
 }
 
 .artwork img {
   width: 100%;
   height: auto;
   display: block;
-  /*aspect-ratio: 4 / 5;
-  object-fit: cover;*/
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
 }
 
 .artwork {
@@ -68,4 +85,6 @@
 .artwork-button {
   all: unset;
   cursor: pointer;
+  display: block;
+  width: 90%;
 }
