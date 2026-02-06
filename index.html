@@ -4,8 +4,10 @@
     <title>Art Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/filter.js" defer></script>
-
+    <script src="js/lightbox.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+
   <body>
     <h1>Gael Jay</h1>
     <div class="filters">
@@ -16,31 +18,67 @@
       <button data-filter="acrylic">Acrylic</button>
       <button data-filter="digital">Digital</button>
     </div>
-  <main class="gallery">
-    <div class="artwork" data-tags="oil sold">
+
+
+<main class="gallery">
+  <div class="artwork" data-tags="oil sold">
+    <button class="artwork-button"
+            data-title="kos"
+            data-meta="Oil on canvas · 2024"
+            data-image="images/kos.png">
       <img src="images/kos.png" alt="kos">
-      <h3>kos</h3>
-      <p>Oil on canvas · 2024</p>
-    </div>
+    </button>
+    <h3>Kos meets the fishermen</h3>
+    <p>Oil on canvas · 2024</p>
+  </div>
 
-    <div class="artwork" data-tags="oil sold">
-      <img src="images/elesh_norn.jpg" alt="elesh norn">
-      <h3>Elesh Norn</h3>
-      <p>Oil on canvas · 2025</p>
-    </div>
+  <div class="artwork" data-tags="oil sold">
+    <button class="artwork-button"
+            data-title="Elesh Norn"
+            data-meta="Oil on canvas · 2024"
+            data-image="images/elesh_norn.jpg">
+      <img src="images/elesh_norn.jpg" alt="Elesh Norn">
+    </button>
+    <h3>Elesh Norn</h3>
+    <p>Oil on canvas · 2025</p>
+  </div>
+  <div class="artwork" data-tags="acrylic available">
+    <button class="artwork-button"
+            data-title="Mycosynth Gardens"
+            data-meta="Acrylics on canvas · 2026"
+            data-image="images/mycosynth.jpg">
+      <img src="images/mycosynth.jpg" alt="kos">
+    </button>
+    <h3>Mycosynth Gardens</h3>
+    <p>Acrylics on canvas · 2026</p>
+  </div>
 
-    <div class="artwork" data-tags="acrylic available">
-      <img src="images/mycosynth.jpg" alt="mycosynth gardens">
-      <h3>Mycosynth Gardens</h3>
-      <p>Acrylics on canvas · 2026</p>
-    </div>
 
-        <div class="artwork" data-tags="acrylic sold">
-      <img src="images/sothera.jpg" alt="Sothera system">
-      <h3>Sothera system</h3>
-      <p>Acrylics on canvas · 2026</p>
-    </div>
-  </main>
+    <div class="artwork" data-tags="acrylic sold">
+    <button class="artwork-button"
+            data-title="Sothera Supervoid"
+            data-meta="acrylics on canvas · 2026"
+            data-image="images/mycosynth.jpg">
+      <img src="images/mycosynth.jpg" alt="kos">
+    </button>
+    <h3>Mycosynth Gardens</h3>
+    <p>Acrylics on canvas · 2026</p>
+  </div>
 
+</main>
+
+<div class="lightbox" aria-hidden="true">
+  <div class="lightbox-content" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close artwork">×</button>
+
+    <img class="lightbox-image" src="" alt="">
+    <h2 class="lightbox-title"></h2>
+    <p class="lightbox-meta"></p>
+  </div>
+</div>
+
+  <footer>
+  © 2026 Gael Jay. All artwork protected.
+</footer>
 </body>
 
