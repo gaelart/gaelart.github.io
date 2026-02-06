@@ -1,0 +1,8 @@
+.artwork {
+  width: 300px;
+}
+
+.artwork img {
+  width: 100%;
+  height: auto;
+}
