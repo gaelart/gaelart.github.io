@@ -12,7 +12,12 @@ body {
   font-family: 'Natural Mono', monospace;
 }
 
-/* Filter buttons */
+.bigtitle{
+  text-align: center;
+  color: brown;
+  font-size: 5rem;
+
+}
 .filters {
   display: flex;
   gap: 0.5rem;
@@ -64,6 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #ffecd1;
+  max-width: 30rem;
   align-items: center;
   padding-top: 1rem;
   transition: transform 0.2s ease;

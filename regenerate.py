@@ -86,7 +86,8 @@ def body():
      gallery,tags = generate_gallery('images')
      return f"""
 <body>
-    <h1>Gael Jay - Portfolio</h1>
+
+    <div class="bigtitle">Gallery</div>
 {generate_filter_buttons(tags)}
 {gallery}
 {lightbox()}
