@@ -38,6 +38,7 @@ def generate_gallery(folder):
     <main class="gallery">"""
     for filename in os.listdir(folder):
             parts = filename.split('.')[0].split('-')
+            print(parts)
             title = parts[0].replace('_',' ')
             year = parts[1]
             medium = parts[2] 
@@ -45,6 +46,7 @@ def generate_gallery(folder):
                 medium = "oil"
             elif "acrylics" in medium:
                 medium = "acrylics"
+            
             available = parts[3]
             if len(parts) > 4:
                 extra_tags = parts[4:]
