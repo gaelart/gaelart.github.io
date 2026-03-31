@@ -1,7 +1,7 @@
 import time
 import os
-
-
+import json
+from art_manager import load_from_filepath
 
 def generate_button(tag):
     return f"""
@@ -34,28 +34,26 @@ def generate_artwork_block(image_name,title,year,medium,available,extra_tags = [
 
 def generate_gallery(folder):
     all_tags = set()
+    json_dumps = []
     return_string = """
     <main class="gallery">"""
     for filename in os.listdir(folder):
-            parts = filename.split('.')[0].split('-')
-            print(parts)
-            title = parts[0].replace('_',' ')
-            year = parts[1]
-            medium = parts[2] 
-            if "oil" in medium:
-                medium = "oil"
-            elif "acrylics" in medium:
-                medium = "acrylics"
-            
-            available = parts[3]
-            if len(parts) > 4:
-                extra_tags = parts[4:]
-            else:
-                extra_tags = []
+            artwork_dict = load_from_filepath(filename)
+            json_dumps.append(artwork_dict)
+
+            title = artwork_dict['title']   
+            year = artwork_dict['year']
+            medium = artwork_dict['medium']
+            available = artwork_dict['available']
+            collection = artwork_dict['collection']
+            extra_tags = artwork_dict['extra_tags']
             return_string+=generate_artwork_block(filename,title,year,medium,available,extra_tags) 
-            all_tags.update([medium,available]+extra_tags)
+            all_tags.update([medium,available,collection]+extra_tags)
     return_string += "</main>"
     print(all_tags)
+    with open('artworks.json', 'w', encoding='utf-8') as f:
+
+        json.dump(json_dumps, f, ensure_ascii=False, indent=4)
     return return_string,all_tags
 
 def lightbox():
