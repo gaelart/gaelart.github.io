@@ -41,14 +41,16 @@ def generate_gallery(folder):
             artwork_dict = load_from_filepath(filename)
             json_dumps.append(artwork_dict)
 
-            title = artwork_dict['title']   
-            year = artwork_dict['year']
-            medium = artwork_dict['medium']
-            available = artwork_dict['available']
-            collection = artwork_dict['collection']
-            extra_tags = artwork_dict['extra_tags']
-            return_string+=generate_artwork_block(filename,title,year,medium,available,extra_tags) 
-            all_tags.update([medium,available,collection]+extra_tags)
+            return_string+=generate_artwork_block(filename,
+                                                  artwork_dict['title'],
+                                                  artwork_dict['year'],
+                                                  artwork_dict['medium'],
+                                                  artwork_dict['available'],
+                                                  artwork_dict['extra_tags']) 
+            all_tags.update([artwork_dict['medium'],
+                             artwork_dict['available'],
+                             artwork_dict['collection']]+artwork_dict['extra_tags'])
+            
     return_string += "</main>"
     print(all_tags)
     with open('artworks.json', 'w', encoding='utf-8') as f:
