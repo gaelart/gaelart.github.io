@@ -5,8 +5,10 @@
         "medium": "oil",
         "available": "private_collection",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Aube_à_Basso_Cambo-2024-oil_on_wood-private_collection.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Aube_à_Basso_Cambo-2024-oil_on_wood-private_collection.jpg"
     },
     {
         "title": "Contemplation d'Oscar",
@@ -14,8 +16,10 @@
         "medium": "acrylics",
         "available": "private_collection",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Contemplation_d'Oscar-2025-acrylics_on_canvas-private_collection.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Contemplation_d'Oscar-2025-acrylics_on_canvas-private_collection.jpg"
     },
     {
         "title": "Dross Pits",
@@ -23,8 +27,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Dross_Pits-2026-acrylics_on_wood-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Dross_Pits-2026-acrylics_on_wood-available.jpg"
     },
     {
         "title": "Drôle de Libellule",
@@ -32,8 +38,10 @@
         "medium": "oil",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Drôle_de_Libellule-2025-oil_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Drôle_de_Libellule-2025-oil_on_canvas-available.jpg"
     },
     {
         "title": "Elesh Norn",
@@ -41,17 +49,21 @@
         "medium": "oil",
         "available": "sold",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Elesh_Norn-2025-oil_on_canvas-sold.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Elesh_Norn-2025-oil_on_canvas-sold.jpg"
     },
     {
         "title": "Evasion de prison",
         "year": "2026",
         "medium": "acrylics",
         "available": "sold",
-        "collection": "MTG_altered",
-        "extra_tags": [],
-        "filename": "Evasion_de_prison-2026-acrylics-sold-MTG_altered.jpg"
+        "collection": "mtg_altered",
+        "extra_tags": [
+            "mtg_altered"
+        ],
+        "file_path": "images/Evasion_de_prison-2026-acrylics-sold-MTG_altered.jpg"
     },
     {
         "title": "Executor's Erdtree",
@@ -59,8 +71,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Executor's_Erdtree-2025-acrylics_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Executor's_Erdtree-2025-acrylics_on_canvas-available.jpg"
     },
     {
         "title": "Filianore",
@@ -68,8 +82,10 @@
         "medium": "acrylics",
         "available": "private_collection",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Filianore-2022-acrylics_on_canvas-private_collection.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Filianore-2022-acrylics_on_canvas-private_collection.jpg"
     },
     {
         "title": "Forest full art",
@@ -77,8 +93,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "mtg_altered",
-        "extra_tags": [],
-        "filename": "Forest_full_art-2026-acrylics-available-mtg_altered.jpg"
+        "extra_tags": [
+            "mtg_altered"
+        ],
+        "file_path": "images/Forest_full_art-2026-acrylics-available-mtg_altered.jpg"
     },
     {
         "title": "incendie à bord",
@@ -86,8 +104,10 @@
         "medium": "oil",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "incendie_à_bord-2025-oil_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/incendie_à_bord-2025-oil_on_canvas-available.jpg"
     },
     {
         "title": "Jin Gitaxias",
@@ -95,8 +115,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Jin_Gitaxias-2026-acrylics_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Jin_Gitaxias-2026-acrylics_on_canvas-available.jpg"
     },
     {
         "title": "Kos meets the fishermen",
@@ -104,8 +126,10 @@
         "medium": "oil",
         "available": "private_collection",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Kos_meets_the_fishermen-2024-oil_on_canvas-private_collection.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Kos_meets_the_fishermen-2024-oil_on_canvas-private_collection.jpg"
     },
     {
         "title": "La loyauté d'Edgar envers Godrick",
@@ -113,8 +137,10 @@
         "medium": "oil",
         "available": "private_collection",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "La loyauté d'Edgar envers Godrick-2024-oil_on_canvas-private_collection.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/La loyauté d'Edgar envers Godrick-2024-oil_on_canvas-private_collection.jpg"
     },
     {
         "title": "Malenia",
@@ -122,8 +148,10 @@
         "medium": "oil",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Malenia-2026-oil_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Malenia-2026-oil_on_canvas-available.jpg"
     },
     {
         "title": "Mycosynth Gardens",
@@ -131,8 +159,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Mycosynth_Gardens-2026-acrylics_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Mycosynth_Gardens-2026-acrylics_on_canvas-available.jpg"
     },
     {
         "title": "My Teacher's cat",
@@ -140,8 +170,10 @@
         "medium": "oil",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "My_Teacher's_cat-2025-oil_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/My_Teacher's_cat-2025-oil_on_canvas-available.jpg"
     },
     {
         "title": "Nuages au dessus de Toulouse",
@@ -149,8 +181,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Nuages_au_dessus_de_Toulouse-2025-acrylics_on_canvas-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Nuages_au_dessus_de_Toulouse-2025-acrylics_on_canvas-available.jpg"
     },
     {
         "title": "Phyrexian Forest",
@@ -158,8 +192,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Phyrexian Forest-2026-acrylics-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Phyrexian Forest-2026-acrylics-available.jpg"
     },
     {
         "title": "Satisfaction du Saiyan",
@@ -167,8 +203,10 @@
         "medium": "acrylics",
         "available": "available",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Satisfaction du Saiyan-2016-acrylics-available.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Satisfaction du Saiyan-2016-acrylics-available.jpg"
     },
     {
         "title": "Shaman Village",
@@ -176,8 +214,10 @@
         "medium": "Watercolor",
         "available": "sold",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Shaman_Village-2025-Watercolor-sold.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Shaman_Village-2025-Watercolor-sold.jpg"
     },
     {
         "title": "Sothera System",
@@ -185,7 +225,9 @@
         "medium": "acrylics",
         "available": "sold",
         "collection": "none",
-        "extra_tags": [],
-        "filename": "Sothera_System-2026-acrylics_on_canvas-sold.jpg"
+        "extra_tags": [
+            "none"
+        ],
+        "file_path": "images/Sothera_System-2026-acrylics_on_canvas-sold.jpg"
     }
 ]

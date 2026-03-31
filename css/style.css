@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Natural Mono';
+  font-family: "Natural Mono";
   src: url("../fonts/LinLibertine_R.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,7 @@
 body {
   background: #eae1df;
   color: #0f0f0f;
-  font-family: 'Natural Mono', monospace;
+  font-family: "Natural Mono", monospace;
 }
 
 .bigtitle{

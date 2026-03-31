@@ -58,15 +58,13 @@ class MyWidget(QtWidgets.QWidget):
 
             if dialog.exec(): 
                 data = dialog.get_data()
-
                 title = data["title"]
                 year = data["year"]
                 medium = data["medium"]
                 available = data["available"]
                 collection = data["collection"]
                 price = data["price"]
-                extra_tags = data["tags"]
-
+                extra_tags = data["extra_tags"]
                 print(title, year, medium, available, collection, extra_tags)
             else:
                 return
@@ -75,10 +73,10 @@ class MyWidget(QtWidgets.QWidget):
                 "year": year,
                 "medium": medium,
                 "available": available,
-                "collection": collection if collection != "" else "none",
+                "collection": collection,
                 "price": price,
-                "extra_tags": [tag.strip() for tag in extra_tags.split(',')] if extra_tags != "" else [],
-                "filename": file_path    
+                "extra_tags": extra_tags,
+                "file_path": file_path    
             })
             
 

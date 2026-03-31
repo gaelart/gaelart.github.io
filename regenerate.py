@@ -1,31 +1,32 @@
 import time
 import os
 import json
-from art_manager import load_from_filepath
+from art_manager import load_from_filepath,preprocess_artwork
 
 def generate_button(tag):
     return f"""
-            <button data-filter="{tag}">{tag.replace('_',' ')}</button>"""
+            <button data-filter="{tag}">{tag.replace("_"," ")}</button>"""
     
 def generate_filter_buttons(tags):
     return_string = """
         <div class="filters">
             <button data-filter="all">All</button>"""
     for tag in tags:
-        return_string+=generate_button(tag)
+        if tag != "none":
+            return_string+=generate_button(tag)
     return_string += "</div>"
     return return_string
 
-def generate_artwork_block(image_name,title,year,medium,available,extra_tags = []):
-    medium_string = medium.replace('_',' ')
-    tag_string = ' '.join([medium,available]+extra_tags)
+def generate_artwork_block(image_path,title,year,medium,available,extra_tags = []):
+    medium_string = medium.replace("_"," ")
+    tag_string = " ".join([medium,available]+extra_tags)
     return f"""
     <div class="artwork" data-tags="{tag_string}">
         <button class="artwork-button"
                 data-title="{title}"
                 data-meta="{medium_string} · {year}"
-                data-image="images/{image_name}">
-        <img src="images/{image_name}" alt="{title}">
+                data-image="{image_path}">
+        <img src="{image_path}" alt="{title}">
         </button>
         <h3>{title}</h3>
         <p>{medium_string} · {year}</p>
@@ -37,23 +38,24 @@ def generate_gallery(folder):
     json_dumps = []
     return_string = """
     <main class="gallery">"""
-    for filename in os.listdir(folder):
+    for filename in [f"{folder}/{f}" for f in os.listdir(folder)]:
             artwork_dict = load_from_filepath(filename)
-            json_dumps.append(artwork_dict)
 
+            json_dumps.append(artwork_dict)
+            artwork_dict["extra_tags"].append(artwork_dict["collection"])
             return_string+=generate_artwork_block(filename,
-                                                  artwork_dict['title'],
-                                                  artwork_dict['year'],
-                                                  artwork_dict['medium'],
-                                                  artwork_dict['available'],
-                                                  artwork_dict['extra_tags']) 
-            all_tags.update([artwork_dict['medium'],
-                             artwork_dict['available'],
-                             artwork_dict['collection']]+artwork_dict['extra_tags'])
+                                                  artwork_dict["title"],
+                                                  artwork_dict["year"],
+                                                  artwork_dict["medium"],
+                                                  artwork_dict["available"],
+                                                  artwork_dict["extra_tags"]) 
+            all_tags.update([artwork_dict["medium"],
+                             artwork_dict["available"],
+                             ]+artwork_dict["extra_tags"])
             
     return_string += "</main>"
     print(all_tags)
-    with open('artworks.json', 'w', encoding='utf-8') as f:
+    with open("artworks.json", "w", encoding="utf-8") as f:
 
         json.dump(json_dumps, f, ensure_ascii=False, indent=4)
     return return_string,all_tags
@@ -91,14 +93,14 @@ def header():
     <script src="js/filter.js" defer></script>
     <script src="js/lightbox.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Gael Jay's Portfolio" />
+    <meta property="og:title" content="Gael Jay"s Portfolio" />
     <meta property="og:image" content="https://gaelart.github.io/preview.jpg" />
     <meta property="og:description" content="Online gallery of traditional artist Gael Jay." />
   </head>
   """
 
 def body():
-     gallery,tags = generate_gallery('images')
+     gallery,tags = generate_gallery("images")
      return f"""
 <body>
 
@@ -109,9 +111,9 @@ def body():
 
   """
 
-def generate_full_page(filename='index.html'):
+def generate_full_page(filename="index.html"):
 
-    with open(filename, 'w',encoding="utf-8") as f:
+    with open(filename, "w",encoding="utf-8") as f:
         f.write(header() + body() + footer())
     return header() + body() + footer() 
 

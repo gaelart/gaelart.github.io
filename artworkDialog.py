@@ -41,7 +41,7 @@ class ArtworkDialog(QDialog):
             "year": self.year_edit.text(),
             "medium": self.medium_edit.text(),
             "available": self.available_edit.text(),
-            "collection": self.collection_edit.text(),
+            "collection": self.collection_edit.text().lower() if self.collection_edit.text() != "" else "none",
             "price": self.price.text(),
-            "tags": self.tags_edit.text(),
+            "extra_tags": self.tags_edit.text().split("-") if self.tags_edit.text() != "" else []
         }
