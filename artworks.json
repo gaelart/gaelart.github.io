@@ -26,11 +26,11 @@
         "year": "2026",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "mtg",
         "extra_tags": [
-            "none"
+            "mtg"
         ],
-        "file_path": "images/Dross_Pits-2026-acrylics_on_wood-available.jpg"
+        "file_path": "images/Dross_Pits-2026-acrylics_on_wood-available-mtg.jpg"
     },
     {
         "title": "Drôle de Libellule",
@@ -48,55 +48,56 @@
         "year": "2025",
         "medium": "oil",
         "available": "sold",
-        "collection": "none",
+        "collection": "mtg",
         "extra_tags": [
-            "none"
+            "mtg"
         ],
-        "file_path": "images/Elesh_Norn-2025-oil_on_canvas-sold.jpg"
+        "file_path": "images/Elesh_Norn-2025-oil_on_canvas-sold-mtg.jpg"
     },
     {
         "title": "Evasion de prison",
         "year": "2026",
         "medium": "acrylics",
         "available": "sold",
-        "collection": "mtg_altered",
+        "collection": "mtg",
         "extra_tags": [
-            "mtg_altered"
+            "soulsborne",
+            "mtg"
         ],
-        "file_path": "images/Evasion_de_prison-2026-acrylics-sold-MTG_altered.jpg"
+        "file_path": "images/Evasion_de_prison-2026-acrylics-sold-mtg-soulsborne.jpg"
     },
     {
         "title": "Executor's Erdtree",
         "year": "2025",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "soulsborne",
         "extra_tags": [
-            "none"
+            "soulsborne"
         ],
-        "file_path": "images/Executor's_Erdtree-2025-acrylics_on_canvas-available.jpg"
+        "file_path": "images/Executor's_Erdtree-2025-acrylics_on_canvas-available-soulsborne.jpg"
     },
     {
         "title": "Filianore",
         "year": "2022",
         "medium": "acrylics",
         "available": "private_collection",
-        "collection": "none",
+        "collection": "soulsborne",
         "extra_tags": [
-            "none"
+            "soulsborne"
         ],
-        "file_path": "images/Filianore-2022-acrylics_on_canvas-private_collection.jpg"
+        "file_path": "images/Filianore-2022-acrylics_on_canvas-private_collection-soulsborne.jpg"
     },
     {
         "title": "Forest full art",
         "year": "2026",
         "medium": "acrylics",
         "available": "available",
-        "collection": "mtg_altered",
+        "collection": "mtg",
         "extra_tags": [
-            "mtg_altered"
+            "mtg"
         ],
-        "file_path": "images/Forest_full_art-2026-acrylics-available-mtg_altered.jpg"
+        "file_path": "images/Forest_full_art-2026-acrylics-available-mtg.jpg"
     },
     {
         "title": "incendie à bord",
@@ -114,55 +115,55 @@
         "year": "2026",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "mtg",
         "extra_tags": [
-            "none"
+            "mtg"
         ],
-        "file_path": "images/Jin_Gitaxias-2026-acrylics_on_canvas-available.jpg"
+        "file_path": "images/Jin_Gitaxias-2026-acrylics_on_canvas-available-mtg.jpg"
     },
     {
         "title": "Kos meets the fishermen",
         "year": "2024",
         "medium": "oil",
         "available": "private_collection",
-        "collection": "none",
+        "collection": "soulsborne",
         "extra_tags": [
-            "none"
+            "soulsborne"
         ],
-        "file_path": "images/Kos_meets_the_fishermen-2024-oil_on_canvas-private_collection.jpg"
+        "file_path": "images/Kos_meets_the_fishermen-2024-oil_on_canvas-private_collection-soulsborne.jpg"
     },
     {
         "title": "La loyauté d'Edgar envers Godrick",
         "year": "2024",
         "medium": "oil",
         "available": "private_collection",
-        "collection": "none",
+        "collection": "soulsborne",
         "extra_tags": [
-            "none"
+            "soulsborne"
         ],
-        "file_path": "images/La loyauté d'Edgar envers Godrick-2024-oil_on_canvas-private_collection.jpg"
+        "file_path": "images/La loyauté d'Edgar envers Godrick-2024-oil_on_canvas-private_collection-soulsborne.jpg"
     },
     {
         "title": "Malenia",
         "year": "2026",
         "medium": "oil",
         "available": "available",
-        "collection": "none",
+        "collection": "soulsborne",
         "extra_tags": [
-            "none"
+            "soulsborne"
         ],
-        "file_path": "images/Malenia-2026-oil_on_canvas-available.jpg"
+        "file_path": "images/Malenia-2026-oil_on_canvas-available-soulsborne.jpg"
     },
     {
         "title": "Mycosynth Gardens",
         "year": "2026",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "mtg",
         "extra_tags": [
-            "none"
+            "mtg"
         ],
-        "file_path": "images/Mycosynth_Gardens-2026-acrylics_on_canvas-available.jpg"
+        "file_path": "images/Mycosynth_Gardens-2026-acrylics_on_canvas-available-mtg.jpg"
     },
     {
         "title": "My Teacher's cat",
@@ -191,11 +192,11 @@
         "year": "2026",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "mtg",
         "extra_tags": [
-            "none"
+            "mtg"
         ],
-        "file_path": "images/Phyrexian Forest-2026-acrylics-available.jpg"
+        "file_path": "images/Phyrexian Forest-2026-acrylics-available-mtg.jpg"
     },
     {
         "title": "Satisfaction du Saiyan",
@@ -213,21 +214,32 @@
         "year": "2025",
         "medium": "Watercolor",
         "available": "sold",
-        "collection": "none",
+        "collection": "soulsborne",
         "extra_tags": [
-            "none"
+            "soulsborne"
         ],
-        "file_path": "images/Shaman_Village-2025-Watercolor-sold.jpg"
+        "file_path": "images/Shaman_Village-2025-Watercolor-sold-soulsborne.jpg"
     },
     {
         "title": "Sothera System",
         "year": "2026",
         "medium": "acrylics",
         "available": "sold",
-        "collection": "none",
+        "collection": "mtg",
         "extra_tags": [
-            "none"
+            "mtg"
         ],
-        "file_path": "images/Sothera_System-2026-acrylics_on_canvas-sold.jpg"
+        "file_path": "images/Sothera_System-2026-acrylics_on_canvas-sold-mtg.jpg"
+    },
+    {
+        "title": "Surgical bay",
+        "year": "2026",
+        "medium": "oil",
+        "available": "available",
+        "collection": "mtg",
+        "extra_tags": [
+            "mtg"
+        ],
+        "file_path": "images/Surgical_bay-2026-oil-available-mtg.jpg"
     }
 ]
