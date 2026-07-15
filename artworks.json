@@ -1,25 +1,91 @@
 [
     {
+        "title": "5 various alters",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/5_various_alters-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Anabelle on the sofa",
+        "year": "2025",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Anabelle_on_the_sofa-2025-oil-available-canvas.jpg"
+    },
+    {
         "title": "Aube à Basso Cambo",
         "year": "2024",
         "medium": "oil",
         "available": "private_collection",
-        "collection": "none",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/Aube_à_Basso_Cambo-2024-oil_on_wood-private_collection.jpg"
+        "file_path": "images/Aube_à_Basso_Cambo-2024-oil_on_wood-private_collection-canvas.jpg"
+    },
+    {
+        "title": "Banished knight",
+        "year": "2026",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Banished_knight-2026-oil-available-canvas.jpg"
+    },
+    {
+        "title": "Beuza, bounding spring",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Beuza,_bounding_spring-2026-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Contemplation d'Oscar",
         "year": "2025",
         "medium": "acrylics",
         "available": "private_collection",
-        "collection": "none",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/Contemplation_d'Oscar-2025-acrylics_on_canvas-private_collection.jpg"
+        "file_path": "images/Contemplation_d'Oscar-2025-acrylics_on_canvas-private_collection-canvas.jpg"
+    },
+    {
+        "title": "Crime on chocolatine",
+        "year": "2026",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Crime_on_chocolatine-2026-oil-available-canvas.jpg"
+    },
+    {
+        "title": "Cumulonimbus study",
+        "year": "2025",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Cumulonimbus_study-2025-oil-available-canvas.jpg"
     },
     {
         "title": "Dross Pits",
@@ -28,20 +94,32 @@
         "available": "available",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Dross_Pits-2026-acrylics_on_wood-available-mtg.jpg"
+        "file_path": "images/Dross_Pits-2026-acrylics_on_wood-available-mtg-canvas.jpg"
     },
     {
         "title": "Drôle de Libellule",
         "year": "2025",
         "medium": "oil",
         "available": "available",
-        "collection": "none",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/Drôle_de_Libellule-2025-oil_on_canvas-available.jpg"
+        "file_path": "images/Drôle_de_Libellule-2025-oil-available-canvas.jpg"
+    },
+    {
+        "title": "Eisenhower boulevard",
+        "year": "2024",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Eisenhower_boulevard-2024-oil-available-canvas.jpg"
     },
     {
         "title": "Elesh Norn",
@@ -50,21 +128,44 @@
         "available": "sold",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Elesh_Norn-2025-oil_on_canvas-sold-mtg.jpg"
+        "file_path": "images/Elesh_Norn-2025-oil_on_canvas-sold-mtg-canvas.jpg"
+    },
+    {
+        "title": "Endless sands",
+        "year": "2025",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Endless_sands-2025-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Ephemerate",
+        "year": "2025",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Ephemerate-2025-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Evasion de prison",
         "year": "2026",
         "medium": "acrylics",
         "available": "sold",
-        "collection": "mtg",
+        "collection": "mtg_alters",
         "extra_tags": [
             "soulsborne",
-            "mtg"
+            "mtg_alters"
         ],
-        "file_path": "images/Evasion_de_prison-2026-acrylics-sold-mtg-soulsborne.jpg"
+        "file_path": "images/Evasion_de_prison-2026-acrylics-sold-mtg_alters-soulsborne.jpg"
     },
     {
         "title": "Executor's Erdtree",
@@ -73,9 +174,10 @@
         "available": "available",
         "collection": "soulsborne",
         "extra_tags": [
+            "canvas",
             "soulsborne"
         ],
-        "file_path": "images/Executor's_Erdtree-2025-acrylics_on_canvas-available-soulsborne.jpg"
+        "file_path": "images/Executor's_Erdtree-2025-acrylics_on_canvas-available-soulsborne-canvas.jpg"
     },
     {
         "title": "Filianore",
@@ -84,31 +186,76 @@
         "available": "private_collection",
         "collection": "soulsborne",
         "extra_tags": [
+            "canvas",
             "soulsborne"
         ],
-        "file_path": "images/Filianore-2022-acrylics_on_canvas-private_collection-soulsborne.jpg"
+        "file_path": "images/Filianore-2022-acrylics_on_canvas-private_collection-soulsborne-canvas.jpg"
     },
     {
         "title": "Forest full art",
         "year": "2026",
         "medium": "acrylics",
         "available": "available",
-        "collection": "mtg",
+        "collection": "mtg_alters",
         "extra_tags": [
-            "mtg"
+            "mtg_alters"
         ],
-        "file_path": "images/Forest_full_art-2026-acrylics-available-mtg.jpg"
+        "file_path": "images/Forest_full_art-2026-acrylics-available-mtg_alters.jpg"
+    },
+    {
+        "title": "Four seasons islands",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Four_seasons_islands-2026-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "incendie à bord",
         "year": "2025",
         "medium": "oil",
-        "available": "available",
-        "collection": "none",
+        "available": "private_collection",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/incendie_à_bord-2025-oil_on_canvas-available.jpg"
+        "file_path": "images/incendie_à_bord-2025-oil-private_collection-canvas.jpg"
+    },
+    {
+        "title": "Islands alters 2",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Islands_alters_2-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Islands alters 3",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Islands_alters_3-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Island alters",
+        "year": "2020",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Island_alters-2020-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Jin Gitaxias",
@@ -117,9 +264,10 @@
         "available": "available",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Jin_Gitaxias-2026-acrylics_on_canvas-available-mtg.jpg"
+        "file_path": "images/Jin_Gitaxias-2026-acrylics-available-mtg-canvas.jpg"
     },
     {
         "title": "Kos meets the fishermen",
@@ -128,9 +276,10 @@
         "available": "private_collection",
         "collection": "soulsborne",
         "extra_tags": [
+            "canvas",
             "soulsborne"
         ],
-        "file_path": "images/Kos_meets_the_fishermen-2024-oil_on_canvas-private_collection-soulsborne.jpg"
+        "file_path": "images/Kos_meets_the_fishermen-2024-oil_on_canvas-private_collection-soulsborne-canvas.jpg"
     },
     {
         "title": "La loyauté d'Edgar envers Godrick",
@@ -139,9 +288,54 @@
         "available": "private_collection",
         "collection": "soulsborne",
         "extra_tags": [
+            "canvas",
             "soulsborne"
         ],
-        "file_path": "images/La loyauté d'Edgar envers Godrick-2024-oil_on_canvas-private_collection-soulsborne.jpg"
+        "file_path": "images/La loyauté d'Edgar envers Godrick-2024-oil-private_collection-soulsborne-canvas.jpg"
+    },
+    {
+        "title": "Lands alters",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Lands_alters-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Lands alters 2",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Lands_alters_2-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Lands alters 4",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Lands_alters_4-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Land alters 3",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Land_alters_3-2026-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Malenia",
@@ -150,9 +344,21 @@
         "available": "available",
         "collection": "soulsborne",
         "extra_tags": [
+            "canvas",
             "soulsborne"
         ],
-        "file_path": "images/Malenia-2026-oil_on_canvas-available-soulsborne.jpg"
+        "file_path": "images/Malenia-2026-oil-available-soulsborne-canvas.jpg"
+    },
+    {
+        "title": "Mishra's factory",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Mishra's_factory-2026-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Mycosynth Gardens",
@@ -161,31 +367,43 @@
         "available": "available",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Mycosynth_Gardens-2026-acrylics_on_canvas-available-mtg.jpg"
+        "file_path": "images/Mycosynth_Gardens-2026-acrylics_on_canvas-available-mtg-canvas.jpg"
     },
     {
         "title": "My Teacher's cat",
         "year": "2025",
         "medium": "oil",
         "available": "available",
-        "collection": "none",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/My_Teacher's_cat-2025-oil_on_canvas-available.jpg"
+        "file_path": "images/My_Teacher's_cat-2025-oil_on_canvas-available-canvas.jpg"
     },
     {
         "title": "Nuages au dessus de Toulouse",
         "year": "2025",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/Nuages_au_dessus_de_Toulouse-2025-acrylics_on_canvas-available.jpg"
+        "file_path": "images/Nuages_au_dessus_de_Toulouse-2025-acrylics_on_canvas-available-canvas.jpg"
+    },
+    {
+        "title": "Orage de chaleur",
+        "year": "2026",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Orage_de_chaleur-2026-oil-available-canvas.jpg"
     },
     {
         "title": "Phyrexian Forest",
@@ -194,31 +412,77 @@
         "available": "available",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Phyrexian Forest-2026-acrylics-available-mtg.jpg"
+        "file_path": "images/Phyrexian Forest-2026-acrylics-available-mtg-canvas.jpg"
+    },
+    {
+        "title": "Phyrexian lands",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Phyrexian_lands-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Plain alter",
+        "year": "2025",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Plain alter-2025-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Satisfaction du Saiyan",
         "year": "2016",
         "medium": "acrylics",
         "available": "available",
-        "collection": "none",
+        "collection": "canvas",
         "extra_tags": [
-            "none"
+            "canvas"
         ],
-        "file_path": "images/Satisfaction du Saiyan-2016-acrylics-available.jpg"
+        "file_path": "images/Satisfaction du Saiyan-2016-acrylics-available-canvas.jpg"
+    },
+    {
+        "title": "Seascape practice",
+        "year": "2026",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Seascape_practice-2026-oil-available-canvas.jpg"
+    },
+    {
+        "title": "Serendib efreet",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Serendib_efreet-2026-acrylics-sold-mtg_alters.jpg"
     },
     {
         "title": "Shaman Village",
         "year": "2025",
-        "medium": "Watercolor",
+        "medium": "watercolor",
         "available": "sold",
         "collection": "soulsborne",
         "extra_tags": [
+            "canvas",
             "soulsborne"
         ],
-        "file_path": "images/Shaman_Village-2025-Watercolor-sold-soulsborne.jpg"
+        "file_path": "images/Shaman_Village-2025-Watercolor-sold-soulsborne-canvas.jpg"
     },
     {
         "title": "Sothera System",
@@ -227,9 +491,32 @@
         "available": "sold",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Sothera_System-2026-acrylics_on_canvas-sold-mtg.jpg"
+        "file_path": "images/Sothera_System-2026-acrylics_on_canvas-sold-mtg-canvas.jpg"
+    },
+    {
+        "title": "Spirit of the stream",
+        "year": "2025",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Spirit_of_the_stream-2025-oil-available-canvas.jpg"
+    },
+    {
+        "title": "Still life on the mantlepiece",
+        "year": "2024",
+        "medium": "acrylics",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Still_life_on_the_mantlepiece-2024-acrylics-available-canvas.jpg"
     },
     {
         "title": "Surgical bay",
@@ -238,8 +525,42 @@
         "available": "available",
         "collection": "mtg",
         "extra_tags": [
+            "canvas",
             "mtg"
         ],
-        "file_path": "images/Surgical_bay-2026-oil-available-mtg.jpg"
+        "file_path": "images/Surgical_bay-2026-oil-available-mtg-canvas.jpg"
+    },
+    {
+        "title": "Tahm kench as psychic frog",
+        "year": "2026",
+        "medium": "acrylics",
+        "available": "sold",
+        "collection": "mtg_alters",
+        "extra_tags": [
+            "mtg_alters"
+        ],
+        "file_path": "images/Tahm_kench_as_psychic_frog-2026-acrylics-sold-mtg_alters.jpg"
+    },
+    {
+        "title": "Trump pregnant with war",
+        "year": "2026",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Trump_pregnant_with_war-2026-oil-available-canvas.jpg"
+    },
+    {
+        "title": "Worshippers of the leviathan",
+        "year": "2025",
+        "medium": "oil",
+        "available": "available",
+        "collection": "canvas",
+        "extra_tags": [
+            "canvas"
+        ],
+        "file_path": "images/Worshippers_of_the_leviathan-2025-oil-available-canvas.jpg"
     }
 ]

@@ -11,10 +11,16 @@ def generate_filter_buttons(tags):
     return_string = """
         <div class="filters">
             <button data-filter="all">All</button>"""
+    tags = sorted(tags)
+    sale_tags = ["available","sold","private_collection"]
     for tag in tags:
-        if tag != "none":
+        if tag != "none" and tag not in sale_tags:
             return_string+=generate_button(tag)
+    for t in sale_tags:
+        if t in tags:
+            return_string+=generate_button(t)
     return_string += "</div>"
+    
     return return_string
 
 def generate_artwork_block(image_path,title,year,medium,available,extra_tags = []):
@@ -32,6 +38,14 @@ def generate_artwork_block(image_path,title,year,medium,available,extra_tags = [
         <p>{medium_string} · {year}</p>
     </div>
   """
+
+def get_social_media_links():
+    return """
+    <div class="social-media">
+        <a href="https://www.instagram.com/gaeltrivel/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.deviantart.com/spin-t" target="_blank" rel="noopener noreferrer">DeviantArt</a>
+        <a href="https://www.linkedin.com/in/gael-jay/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>"""
 
 def generate_gallery(folder):
     all_tags = set()
@@ -105,6 +119,7 @@ def body():
 <body>
 
     <div class="bigtitle">Gallery</div>
+    {get_social_media_links()}
 {generate_filter_buttons(tags)}
 {gallery}
 {lightbox()}

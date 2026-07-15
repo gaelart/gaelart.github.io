@@ -133,3 +133,10 @@ body {
   display: block;
   width: 90%;
 }
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}

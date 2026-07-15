@@ -27,9 +27,9 @@ def load_from_filepath(filepath:str) -> dict:
 
         "title": title, 
         "year": year,
-        "medium": medium,
+        "medium": medium.lower(),
         "available": available,
-        "collection": collection,
+        "collection": collection.lower(),
         "extra_tags": extra_tags,
         "file_path": filepath    
     }
