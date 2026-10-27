@@ -42,7 +42,7 @@ def generate_artwork_block(image_path,title,year,medium,available,extra_tags = [
 def get_social_media_links():
     return """
     <div class="social-media">
-        <a href="https://www.instagram.com/gaeltrivel/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.instagram.com/gael_artiste/" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="https://www.deviantart.com/spin-t" target="_blank" rel="noopener noreferrer">DeviantArt</a>
         <a href="https://www.linkedin.com/in/gael-jay/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>"""
